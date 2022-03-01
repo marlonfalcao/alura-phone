@@ -9,6 +9,8 @@ for (i = 0; i < listaDeTeclas.length; i++) {
 
   tecla.onclick = function () {
       //a função anonima onclick, determina que ao clicar em uma tecla, a função irá adicionar ao campo de digitação (teleDigitado) o valor do espaço de digitação + a tecla criada no for acima, logo o resultado será o número no local de digitação
+
+      
     telefDigitado.value = telefDigitado.value + tecla.value;
   }
 }
